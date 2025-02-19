@@ -107,3 +107,37 @@ O projeto segue uma arquitetura **baseada em camadas**, com foco na separação 
                     └───userapi
 ```
 
+## **Funcionalidades**  
+- Cadastro de usuários (padrão: **CLIENTE**).  
+- Autenticação e autorização via **JWT**.  
+- Gerenciamento de perfis de acesso (**Roles & Permissões**).  
+- Aprovação manual de novos **ADMINs**.  
+- Log de auditoria de acessos.  
+
+---
+
+## **Perfis de Usuários**  
+| **Role**      | **Descrição**                              |  
+|---------------|--------------------------------------------|  
+| **CLIENTE**   | Padrão para novos usuários; pode fazer reservas. |  
+| **FUNCIONARIO** | Pode gerenciar vagas e verificar reservas. |  
+| **ADMIN**     | Acesso total; aprova usuários e gerencia tudo.   |  
+
+---
+
+## **Status do Projeto**  
+- **Em desenvolvimento:** O microsserviço ainda não está finalizado.  
+- **Testes:** Ainda não implementados.  
+- **Dockerização:** Não será realizada no momento.  
+
+---
+
+## **Próximos Passos**  
+- Finalizar a implementação dos endpoints.  
+- Adicionar testes automatizados.  
+- Implementar integração contínua (CI/CD).  
+
+---
+
+## **Desenvolvido por**  
+**HB-DevJourney** 🚀  
